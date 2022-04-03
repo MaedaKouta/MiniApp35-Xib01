@@ -13,6 +13,8 @@
 		877A748B27F9C76B00BE2AEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877A748927F9C76B00BE2AEB /* Main.storyboard */; };
 		877A748D27F9C76C00BE2AEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877A748C27F9C76C00BE2AEB /* Assets.xcassets */; };
 		877A749027F9C76C00BE2AEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877A748E27F9C76C00BE2AEB /* LaunchScreen.storyboard */; };
+		877A749927F9C86400BE2AEB /* GafaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A749727F9C86400BE2AEB /* GafaTableViewCell.swift */; };
+		877A749A27F9C86400BE2AEB /* GafaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 877A749827F9C86400BE2AEB /* GafaTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		877A748C27F9C76C00BE2AEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		877A748F27F9C76C00BE2AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		877A749127F9C76C00BE2AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		877A749727F9C86400BE2AEB /* GafaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GafaTableViewCell.swift; sourceTree = "<group>"; };
+		877A749827F9C86400BE2AEB /* GafaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GafaTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				877A748C27F9C76C00BE2AEB /* Assets.xcassets */,
 				877A748E27F9C76C00BE2AEB /* LaunchScreen.storyboard */,
 				877A749127F9C76C00BE2AEB /* Info.plist */,
+				877A749727F9C86400BE2AEB /* GafaTableViewCell.swift */,
+				877A749827F9C86400BE2AEB /* GafaTableViewCell.xib */,
 			);
 			path = "MiniApp35-Xib01";
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				877A749A27F9C86400BE2AEB /* GafaTableViewCell.xib in Resources */,
 				877A749027F9C76C00BE2AEB /* LaunchScreen.storyboard in Resources */,
 				877A748D27F9C76C00BE2AEB /* Assets.xcassets in Resources */,
 				877A748B27F9C76B00BE2AEB /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				877A749927F9C86400BE2AEB /* GafaTableViewCell.swift in Sources */,
 				877A748827F9C76B00BE2AEB /* ViewController.swift in Sources */,
 				877A748427F9C76B00BE2AEB /* AppDelegate.swift in Sources */,
 				877A748627F9C76B00BE2AEB /* SceneDelegate.swift in Sources */,
